@@ -1,0 +1,27 @@
+@import "./../../styleElements/Global.css";
+
+footer{
+    position: relative;
+    top: 200px;
+    bottom:0;
+    width:100%;
+    background-color: var(--clr-header-background);
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+a:hover{
+    color:yellow;
+}
+
+li:hover{
+    background:purple;
+}
+footer > ul {
+    padding: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

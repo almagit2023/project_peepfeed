@@ -1,0 +1,27 @@
+@import "./../../styleElements/Global.css";
+li {
+    float: left;
+    list-style-type: none;
+    padding: 0.5rem;
+    border-right: 1px solid orange;
+    background: linear-gradient(#680368,#4b0082);
+    border:1px solid rgb(31, 53, 53) ;
+    
+}
+
+li:hover{
+    background: linear-gradient(#4b0082,hsl(275, 97%, 35%));
+}
+
+.link-style {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-style:hover{
+    color: yellow;
+}
+.userManagement{
+    float: right;
+}
+

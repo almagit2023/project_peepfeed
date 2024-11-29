@@ -1,0 +1,66 @@
+.contactForm {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border: 1px solid #c8c8c8;
+    width: 50%;
+
+}
+
+form {
+    position: relative;
+    display: block;
+    height: auto;
+    left: 25%;
+    padding: 2rem;;
+}
+
+.formHeader{
+    height: 40px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 3.5%;
+
+}
+.formHeader.h1{
+  
+}
+
+input[type=text] {
+
+    margin-top: 5px;
+    padding: 3px;
+    width: 300px;
+
+}
+
+input[type=email] {
+
+    margin-top: 5px;
+    padding: 3px;
+    width: 300px;
+
+}
+textarea{
+    width:300px;
+    height: 100px;
+    }
+
+
+input[type=submit] {
+    display: block;
+    margin-top:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:blueviolet;
+    color: yellow;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+}
